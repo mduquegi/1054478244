@@ -1,0 +1,6 @@
+FROM python:3.12
+WORKDIR /app
+RUN pip install Flask
+COPY app.py
+EXPOSE 5009
+CMD ["python","app.py"]
