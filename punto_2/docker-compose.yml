@@ -1,0 +1,5 @@
+services:
+ elevar_cuadrado:
+   build: ./punto_2
+   image: python:3.12
+   container_name: elevar_cuadrado
