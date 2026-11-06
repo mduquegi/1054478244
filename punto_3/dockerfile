@@ -1,0 +1,5 @@
+FROM php:8-cli
+WORKDIR /sumar.php
+RUN pip install php
+EXPOSE 8000
+CMD ["php", "sumar.php"]
