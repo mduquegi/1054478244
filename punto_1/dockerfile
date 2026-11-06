@@ -4,3 +4,5 @@ RUN pip install locust && locust -f /app/locustfile.py --web-host=0.0.0.0
 COPY locustfile.py
 EXPOSE
 CMD ["locust", "-f", "locustfile.py", "--host", "https://thesimpsonsapi.com"]
+
+
