@@ -9,3 +9,5 @@ services:
     volumes:
       - ./locustfile.py:/app/locustfile.py:ro
     command: sh -c "pip install locust && locust -f /app/locustfile.py --web-host=0.0.0.0"
+
+    
